@@ -81,7 +81,9 @@ sin necesidad de crear una ruta para cada uno. Por eso en el HTML se escribe
 menciona en la URL, Express ya sabe que ahí están esos archivos.
 
 Las mascotas iniciales usan la ilustración `/img/mascota.svg`. Las mascotas
-creadas mediante el formulario usan la imagen local `/img/mascota-nueva.jpg`.
+creadas mediante el formulario usan `/img/mascota-perro.jpg` si la especie es
+perro, o `/img/mascota-gato.jpg` si la especie es gato. La comparación no
+distingue mayúsculas de minúsculas.
 
 ## Formulario
 

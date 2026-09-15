@@ -5,8 +5,14 @@ const { leerMascotas } = require("./archivos");
 
 const app = express();
 const PUERTO = process.env.PORT || 3000;
+const ESPECIES_VALIDAS = ["Perro", "Gato"];
 const ESTADOS_VALIDOS = ["En adopción", "Reservada", "Adoptada"];
-const IMAGEN_MASCOTA_NUEVA = "/img/mascota-nueva.jpg";
+
+function obtenerImagenPorEspecie(especie) {
+  return especie.toLowerCase().includes("gato")
+    ? "/img/mascota-gato.jpg"
+    : "/img/mascota-perro.jpg";
+}
 
 let mascotas = [];
 
@@ -63,9 +69,10 @@ app.post("/mascotas", (req, res) => {
 
   const camposCompletos = Boolean(nombre && especie && edad && estado && descripcion);
   const edadValida = Number.isFinite(edadNumero) && edadNumero >= 0;
+  const especieValida = ESPECIES_VALIDAS.includes(especie);
   const estadoValido = ESTADOS_VALIDOS.includes(estado);
 
-  if (!camposCompletos || !edadValida || !estadoValido) {
+  if (!camposCompletos || !edadValida || !especieValida || !estadoValido) {
     res.status(400).render("mascotas/nueva", {
       titulo: "Agregar mascota",
       error: "Completá todos los campos. La edad debe ser un número mayor o igual a cero.",
@@ -83,7 +90,7 @@ app.post("/mascotas", (req, res) => {
     edad: edadNumero,
     descripcion,
     estado,
-    imagen: IMAGEN_MASCOTA_NUEVA,
+    imagen: obtenerImagenPorEspecie(especie),
   };
 
   mascotas.push(nuevaMascota);

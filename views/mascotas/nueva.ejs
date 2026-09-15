@@ -9,7 +9,10 @@
   <input type="text" id="nombre" name="nombre" value="<%= valores.nombre %>">
 
   <label for="especie">Especie</label>
-  <input type="text" id="especie" name="especie" value="<%= valores.especie %>">
+  <select id="especie" name="especie">
+    <option value="Perro" <%= valores.especie === "Perro" ? "selected" : "" %>>Perro</option>
+    <option value="Gato" <%= valores.especie === "Gato" ? "selected" : "" %>>Gato</option>
+  </select>
 
   <label for="edad">Edad</label>
   <input type="number" id="edad" name="edad" min="0" value="<%= valores.edad %>">
