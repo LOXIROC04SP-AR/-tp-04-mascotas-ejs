@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 240" role="img" aria-labelledby="titulo descripcion">
+  <title id="titulo">Ilustración de una mascota</title>
+  <desc id="descripcion">Un perro color canela asoma detrás de una tarjeta con un corazón.</desc>
+  <rect width="320" height="240" rx="24" fill="#e8f4f1"/>
+  <circle cx="258" cy="52" r="24" fill="#f5c85b"/>
+  <path d="M44 207c18-37 49-55 93-55s75 18 93 55" fill="#9fd6c6"/>
+  <path d="M102 93 68 48c-10-13 8-31 22-20l43 36z" fill="#c8794d" stroke="#713e35" stroke-width="6"/>
+  <path d="m218 93 34-45c10-13-8-31-22-20l-43 36z" fill="#c8794d" stroke="#713e35" stroke-width="6"/>
+  <path d="M91 108c0-45 31-75 69-75s69 30 69 75v45c0 35-31 58-69 58s-69-23-69-58z" fill="#d99564" stroke="#713e35" stroke-width="6"/>
+  <path d="M97 136c13 13 31 20 63 20s50-7 63-20v20c0 35-31 55-63 55s-63-20-63-55z" fill="#f4c38f"/>
+  <circle cx="133" cy="113" r="8" fill="#2d3540"/>
+  <circle cx="187" cy="113" r="8" fill="#2d3540"/>
+  <ellipse cx="160" cy="139" rx="13" ry="9" fill="#713e35"/>
+  <path d="M143 153q17 15 34 0" fill="none" stroke="#713e35" stroke-width="5" stroke-linecap="round"/>
+  <path d="m40 176 7 15 16 2-12 11 3 16-14-8-14 8 3-16-12-11 16-2z" fill="#f5c85b" stroke="#713e35" stroke-width="4"/>
+  <path d="M260 166c-14-14-37 6 0 34 37-28 14-48 0-34z" fill="#e76f51" stroke="#713e35" stroke-width="4"/>
+</svg>

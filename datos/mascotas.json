@@ -1,0 +1,47 @@
+[
+  {
+    "id": 1,
+    "nombre": "Firulais",
+    "especie": "Perro",
+    "edad": 3,
+    "descripcion": "Muy juguetón, le encanta correr en el parque y recibir caricias.",
+    "estado": "En adopción",
+    "imagen": "/img/mascota.svg"
+  },
+  {
+    "id": 2,
+    "nombre": "Michi",
+    "especie": "Gato",
+    "edad": 2,
+    "descripcion": "Tranquilo y cariñoso, disfruta dormir al sol durante horas.",
+    "estado": "En adopción",
+    "imagen": "/img/mascota.svg"
+  },
+  {
+    "id": 3,
+    "nombre": "Rocky",
+    "especie": "Perro",
+    "edad": 5,
+    "descripcion": "Muy protector y leal, ya sabe sentarse y dar la pata.",
+    "estado": "Reservada",
+    "imagen": "/img/mascota.svg"
+  },
+  {
+    "id": 4,
+    "nombre": "Luna",
+    "especie": "Gata",
+    "edad": 1,
+    "descripcion": "Curiosa y activa, le fascina jugar con ovillos de lana.",
+    "estado": "En adopción",
+    "imagen": "/img/mascota.svg"
+  },
+  {
+    "id": 5,
+    "nombre": "Toby",
+    "especie": "Perro",
+    "edad": 2,
+    "descripcion": "Cachorro recién nacido, todavía está aprendiendo a caminar bien.",
+    "estado": "Adoptada",
+    "imagen": "/img/mascota.svg"
+  }
+]

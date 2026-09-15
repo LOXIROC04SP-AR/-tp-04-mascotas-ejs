@@ -1,0 +1,16 @@
+{
+  "name": "tp-04-mascotas-ejs",
+  "version": "1.0.0",
+  "description": "Trabajo practico 04 - Aplicacion web con EJS - Mascotas en adopcion",
+  "main": "src/index.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node src/index.js",
+    "check": "node --check src/index.js && node --check src/archivos.js"
+  },
+  "dependencies": {
+    "express": "^4.19.2",
+    "ejs": "^3.1.10",
+    "express-ejs-layouts": "^2.5.1"
+  }
+}
